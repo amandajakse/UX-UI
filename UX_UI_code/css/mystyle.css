@@ -11,7 +11,7 @@
 html {
     font-size: 100%;
     font-family: 'Poppins', sans-serif;
-    background-color: #F3F3F3;
+    background-color: white;
 }
 
 .page_body {
@@ -25,13 +25,18 @@ html {
     margin: 0;
 }
 
-/--------HEADER--------/ 
+
+
+/*--------HEADER--------*/
 body {
     font-family: 'Poppins', sans-serif;
 }
 
 header {
-    margin-top: 30px;
+    padding-top: 30px;
+    position: fixed;
+    background-color: white;
+    width: 100%;
 }
 
 .sidenav {
@@ -101,8 +106,171 @@ header {
     justify-content: center;
 }
 
-.logout_btn{
+.logout_btn {
     text-align: center;
     font-weight: 400;
     margin-top: 35px;
+}
+
+
+/*--------MAIN--------*/
+
+.greeting {
+    margin-left: 30px;
+    margin-top: 120px;
+    font-size: 1.1rem;
+    color: #3A3A3A;
+}
+
+.date {
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.covid_news {
+    color: white;
+    background: linear-gradient(to right, #f64446 0%, #fb841c 100%);
+    display: flex;
+    flex-direction: row;
+    max-width: 85%;
+    margin: 0 auto;
+    justify-content: center;
+    padding: 30px 5px 0 5px;
+    border-radius: 20px;
+    margin-top: 50px;
+    box-shadow: 7px 5px 15px #bfbfbf;
+}
+
+.covid_text {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.covid_arrow {
+    font-size: 3.6rem;
+    font-weight: 500;
+    margin-top: -25px;
+    margin-left: 5px;
+}
+
+.events {
+    margin-top: 30px;
+}
+
+.next_event {
+    margin-left: 30px;
+    color: #3A3A3A;
+    font-size: 1.5rem;
+    font-weight: 700;
+
+}
+
+.today_event {
+    color: white;
+    background: linear-gradient(to right, #fb841c 0%, #f4d41a 100%);
+    border-radius: 20px;
+    box-shadow: 7px 5px 15px #bfbfbf;
+    max-width: 85%;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 20px 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.today {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+
+.time_place {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+    margin-left: 15px;
+}
+
+.going_input {
+    width: 40px;
+}
+
+.going_option {
+    font-size: 1.1rem;
+}
+
+.event_arrow {
+    margin-left: 35px;
+    margin-top: 15px;
+}
+
+
+.map_header {
+    margin-left: 30px;
+    color: #3A3A3A;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 40px;
+}
+
+/*--------FOOTER--------*/
+
+footer {
+    background-color: white;
+    width: 100%;
+}
+
+.footer_group {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    z-index: 99;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+
+.footer_img_one {
+    width: 50px;
+    margin-right: 50px;
+    margin-top: 15px;
+}
+
+.footer_img_two {
+    width: 90px;
+}
+
+.footer_img_three {
+    width: 60px;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+
+.footer_button {
+    text-decoration: none;
+    color: #3a3a3a;
+    
+}
+
+
+.footer_text {
+    font-size: 1.2rem;
+}
+.text_one {
+    margin-left: -2px;
+    margin-top: 6px;
+}
+.text_two {
+    margin-top: -20px;
+    margin-left: -15px;
+}
+.text_three {
+    margin-left: 40px;
+    margin-top: -7px;
 }
