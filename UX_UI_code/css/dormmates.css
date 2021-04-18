@@ -114,9 +114,9 @@
 }
 
 .dormmatestitle {
-	font-family: 'Poppins'sans-serif;
+	font-family: 'Poppins', sans-serif;
 	float: left;
-	margin-top: 130px;
+	margin-top: 30px;
 	margin-left: 20px;
 	font-size: 40px;
 	color: #3A3A3A;
@@ -305,6 +305,5 @@
 	text-align: left;
 	font-size: 20px;
 }
-
 
 }
