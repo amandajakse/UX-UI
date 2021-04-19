@@ -37,6 +37,7 @@ header {
     position: fixed;
     background-color: white;
     width: 100%;
+    z-index: 99;
 }
 
 .sidenav {
@@ -49,7 +50,7 @@ header {
     background-color: white;
     overflow-x: hidden;
     transition: 0.5s;
-    padding-top: 170px;
+    padding-top: 150px;
 }
 
 
@@ -143,6 +144,7 @@ main {
     border-radius: 20px;
     margin-top: 50px;
     box-shadow: 7px 5px 15px #bfbfbf;
+    text-decoration: none;
 }
 
 .covid_text {
@@ -159,6 +161,7 @@ main {
 
 .events {
     margin-top: 30px;
+
 }
 
 .next_event {
@@ -180,6 +183,7 @@ main {
     padding: 20px 5px;
     display: flex;
     flex-direction: row;
+    text-decoration: none;
 }
 
 .today {
@@ -215,6 +219,7 @@ main {
     margin-top: 15px;
 }
 
+/*--------MAP--------*/
 
 .map_header {
     margin-left: 30px;
@@ -222,6 +227,14 @@ main {
     font-size: 1.5rem;
     font-weight: 700;
     margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.map {
+    width: 100%;
+    height: 250px;
+    z-index: -99;
+    margin-bottom: 400;
 }
 
 /*--------FOOTER--------*/
@@ -239,7 +252,7 @@ footer {
     display: flex;
     flex-direction: row;
     background-color: white;
-    
+
     justify-content: center;
     padding-bottom: 5px;
 }
@@ -263,21 +276,24 @@ footer {
 .footer_button {
     text-decoration: none;
     color: #3a3a3a;
-    
+
 }
 
 
 .footer_text {
     font-size: 1.2rem;
 }
+
 .text_one {
     margin-left: -2px;
     margin-top: 6px;
 }
+
 .text_two {
     margin-top: -20px;
     margin-left: -15px;
 }
+
 .text_three {
     margin-left: 40px;
     margin-top: -7px;
