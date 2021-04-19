@@ -30,7 +30,10 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-/*-------header-------*/
+/*--------HEADER--------*/
+body {
+    font-family: 'Poppins', sans-serif;
+}
 
 header {
     padding-top: 30px;
@@ -76,7 +79,19 @@ header {
 }
 
 
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
 
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+.menu_icon {
+    margin-left: 15px;
+}
 
 .bell_icon {
     position: relative;
@@ -103,7 +118,9 @@ header {
 
 /*--------main--------*/
 
-
+main {
+    margin-bottom: 120px;
+}
 
 .colorful_box {
     width: 100%;
@@ -120,17 +137,18 @@ header {
     font-family: 'Poppins', sans-serif;
     color: #FFF;
     font-weight: bold;
-    margin-top: 120px;
+    margin-top: 140px;
     margin-left: 20px;
 
 
 }
 
-/*.rasmus {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}*/
+.rasmus {
+   width: 60%;
+   display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+}
 
 
 
