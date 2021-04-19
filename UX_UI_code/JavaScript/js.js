@@ -13,3 +13,4 @@ document.getElementById("current_date").innerHTML = "Today is " + d.toDateString
 
 
 
+
