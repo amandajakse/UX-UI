@@ -124,9 +124,8 @@ main {
 
 .colorful_box {
     width: 100%;
-    height: 800px;
-    /* this height is just for now*/
-    background: linear-gradient(#2EE6F8, #C38FD0, #DF576B);
+    height: 600px;
+    background: linear-gradient(#30E4F7, #C38FD0, #DF576B);
     border-bottom-left-radius: 40px;
     border-bottom-right-radius: 40px;
     z-index: -1;
@@ -144,10 +143,10 @@ main {
 }
 
 .rasmus {
-   width: 60%;
-   display: block;
+    width: 60%;
+    display: block;
     margin: 0 auto;
-    margin-top: 10px;
+    margin-top: 80px;
 }
 
 
@@ -164,9 +163,10 @@ main {
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
     border-radius: 40px;
     background-color: #fff;
-    margin-top: -150px;
+    margin-top: -130px;
     padding-top: 20px;
     padding-bottom: 20px;
+    position: relative;
 
 
 
@@ -221,7 +221,7 @@ main {
     width: 219px;
     height: 69px;
     color: #fff;
-     text-align: center;
+    text-align: center;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -311,4 +311,31 @@ footer {
 
 .menu_icon {
     margin-left: 15px;
+}
+
+
+@media screen and (min-width: 360px) {
+    .info_bubble {
+        margin-top: -154px;
+    }
+
+    .colorful_box {
+        height: 650px;
+    }
+}
+
+@media screen and (min-width: 400px) {
+    .info_bubble {
+        margin-top: -158px;
+    }
+}
+
+@media screen and (min-width: 420px) {
+    .info_bubble {
+        margin-top: -162px;
+    }
+
+    .colorful_box {
+        height: 700px;
+    }
 }
