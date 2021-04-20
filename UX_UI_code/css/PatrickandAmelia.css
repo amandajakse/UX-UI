@@ -131,7 +131,7 @@ main {
     z-index: -1;
 }
 
-.your_profile {
+.name {
     display: inline-block;
     font-family: 'Poppins', sans-serif;
     color: #FFF;
@@ -143,11 +143,11 @@ main {
 
 }
 
-.rasmus {
-    width: 60%;
+.photo {
+    width: 80%;
     display: block;
     margin: 0 auto;
-    margin-top: 80px;
+    margin-top: 60px;
 }
 
 
