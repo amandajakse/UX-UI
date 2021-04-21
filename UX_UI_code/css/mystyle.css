@@ -219,24 +219,6 @@ main {
     margin-top: 15px;
 }
 
-/*--------MAP--------*/
-
-.map_header {
-    margin-left: 30px;
-    color: #3A3A3A;
-    font-size: 1.5rem;
-    font-weight: 700;
-    margin-top: 40px;
-    margin-bottom: 10px;
-}
-
-.map {
-    width: 100%;
-    height: 250px;
-    z-index: -99;
-    margin-bottom: 400;
-}
-
 /*--------FOOTER--------*/
 
 footer {
